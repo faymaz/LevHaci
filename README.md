@@ -1,3 +1,5 @@
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=faymaz.LevHaci)
+
 # LevHacı - PerfBoard Design Tool
 
 > ⚠️ **Development Status**: This project is currently under active development and is not yet fully ready for production use. Features may be incomplete or subject to change.

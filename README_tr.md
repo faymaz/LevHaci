@@ -1,3 +1,5 @@
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=faymaz.LevHaci)
+
 # LevHacı - Perfboard Tasarım Aracı
 
 > ⚠️ **Geliştirme Durumu**: Bu proje şu anda aktif geliştirme aşamasındadır ve henüz tam olarak hazır değildir. Özellikler eksik olabilir veya değişikliğe tabi olabilir.
@@ -10,11 +12,11 @@ LevHacı, elektronik devre tasarımcıları için geliştirilmiş özel bir perf
 
 ## Ekran Görüntüsü
 
-![LevHacı Application Screenshot 1](.jpg)
+![LevHacı Application Screenshot 1](LevHaci.jpg)
 
-![LevHacı Application Screenshot 2](-1.jpg)
+![LevHacı Application Screenshot 2](LevHaci-1.jpg)
 
-![LevHacı Application Screenshot 3](-2.jpg)
+![LevHacı Application Screenshot 3](LevHaci-2.jpg)
 
 *Çeşitli elektronik bileşenlerle perfboard tasarımı gösteren LevHacı arayüzü*
 
@@ -73,8 +75,8 @@ LevHacı, elektronik devre tasarımcıları için geliştirilmiş özel bir perf
 ### Kurulum Adımları
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/faymaz/.git
-   cd 
+   git clone https://github.com/faymaz/LevHaci.git
+   cd LevHaci
    ```
 
 2. Bağımlılıkları yükleyin:
@@ -86,7 +88,10 @@ LevHacı, elektronik devre tasarımcıları için geliştirilmiş özel bir perf
    ```bash
    mvn javafx:run
    ```
-
+4. Uygulamayı temizle:
+   ```bash
+   mvn clean
+   ```
 ## Kullanım
 
 ### Temel İşlemler
@@ -119,7 +124,7 @@ Bu proje MIT Lisansı altında yayınlanmıştır. Detaylar için [LICENSE](LICE
 
 ## Bağlantılar
 
-- **GitHub**: [https://github.com/faymaz/](https://github.com/faymaz/)
+- **GitHub**: [https://github.com/faymaz/LevHaci](https://github.com/faymaz/LevHaci)
 - **Issues**: Hata raporları ve özellik istekleri için
 - **Wiki**: Detaylı dokümantasyon
 

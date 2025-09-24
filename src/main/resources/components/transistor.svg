@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+  <!-- TO-92 package body -->
+  <path d="M 12.5,5 A 8,8 0 0,1 12.5,19 Z" fill="#333" stroke="#000" stroke-width="0.5"/>
+  
+  <!-- Flat side -->
+  <line x1="4.5" y1="19" x2="20.5" y2="19" stroke="#555" stroke-width="1"/>
+  
+  <!-- Pins -->
+  <line x1="8" y1="19" x2="8" y2="25" stroke="#C0C0C0" stroke-width="1"/>
+  <line x1="12.5" y1="19" x2="12.5" y2="25" stroke="#C0C0C0" stroke-width="1"/>
+  <line x1="17" y1="19" x2="17" y2="25" stroke="#C0C0C0" stroke-width="1"/>
+  
+  <!-- Pin labels -->
+  <text x="8" y="24" text-anchor="middle" font-family="Arial" font-size="3" fill="#333">C</text>
+  <text x="12.5" y="24" text-anchor="middle" font-family="Arial" font-size="3" fill="#333">B</text>
+  <text x="17" y="24" text-anchor="middle" font-family="Arial" font-size="3" fill="#333">E</text>
+  
+  <!-- Type text -->
+  <text x="12.5" y="3" text-anchor="middle" font-family="Arial" font-size="4" fill="#333">NPN</text>
+</svg>

@@ -5,21 +5,19 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.control.TextField;
 
-public class Resistor {
+public class Resistor extends Component {
     private String value; // e.g., "1k Ohm", "470 Ohm"
     private double lengthMm;
     private double widthMm;
-    private String type; // e.g., "ThroughHole"
-    private int pinCount;
+    // type and pinCount inherited from Component
     private double resistanceOhms; // Numeric resistance in ohms
     private static final double MM_TO_PIXEL = 6.0; // 1mm = 6 pixels
 
     public Resistor(String value, double lengthMm, double widthMm, String type, int pinCount, double resistanceOhms) {
+        super(value, 0, 0, type, pinCount);
         this.value = value;
-        this.lengthMm = lengthMm;
-        this.widthMm = widthMm;
-        this.type = type;
-        this.pinCount = pinCount;
+        this.lengthMm = lengthMm * 0.7; // Make 30% smaller
+        this.widthMm = widthMm * 0.7;
         this.resistanceOhms = resistanceOhms;
     }
 
@@ -40,7 +38,7 @@ public class Resistor {
         renderBands(resistorPane, pixelLength, pixelWidth, bandWidth, gapWidth);
 
         // Draw pins (simple lines for ThroughHole)
-        if ("ThroughHole".equals(type) && pinCount >= 2) {
+        if ("ThroughHole".equals(this.type) && this.pins >= 2) {
             double pinLength = pixelLength / 4;
             Rectangle pin1 = new Rectangle(-pinLength, pixelWidth / 2 - 0.5, pinLength, 1);
             pin1.setFill(Color.SILVER);
@@ -58,7 +56,7 @@ public class Resistor {
             resistorPane.getChildren().clear();
             resistorPane.getChildren().add(body);
             renderBands(resistorPane, pixelLength, pixelWidth, bandWidth, gapWidth);
-            if ("ThroughHole".equals(type) && pinCount >= 2) {
+            if ("ThroughHole".equals(this.type) && this.pins >= 2) {
                 double pinLength = pixelLength / 4;
                 Rectangle pin1 = new Rectangle(-pinLength, pixelWidth / 2 - 0.5, pinLength, 1);
                 pin1.setFill(Color.SILVER);
@@ -70,7 +68,7 @@ public class Resistor {
         });
         resistorPane.getChildren().add(valueField);
 
-        resistorPane.setPrefSize(pixelLength + (pinCount >= 2 ? pixelLength / 2 : 0), pixelWidth + 25); // Extra space for text field
+        resistorPane.setPrefSize(pixelLength + (this.pins >= 2 ? pixelLength / 2 : 0), pixelWidth + 25); // Extra space for text field
         return resistorPane;
     }
 

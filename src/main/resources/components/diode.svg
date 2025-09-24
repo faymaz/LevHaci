@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="16" viewBox="0 0 40 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- Diode body -->
+  <rect x="8" y="5" width="24" height="6" fill="#333" stroke="#000" stroke-width="0.5"/>
+  
+  <!-- Cathode band -->
+  <rect x="28" y="5" width="3" height="6" fill="#fff" stroke="#ccc" stroke-width="0.5"/>
+  
+  <!-- Diode symbol -->
+  <polygon points="18,6 22,8 18,10" fill="#fff" stroke="#000" stroke-width="0.3"/>
+  <line x1="22" y1="6" x2="22" y2="10" stroke="#fff" stroke-width="1"/>
+  
+  <!-- Leads -->
+  <line x1="0" y1="8" x2="8" y2="8" stroke="#C0C0C0" stroke-width="1"/>
+  <line x1="32" y1="8" x2="40" y2="8" stroke="#C0C0C0" stroke-width="1"/>
+  
+  <!-- Model text -->
+  <text x="20" y="14" text-anchor="middle" font-family="Arial" font-size="5" fill="#333">1N4007</text>
+</svg>

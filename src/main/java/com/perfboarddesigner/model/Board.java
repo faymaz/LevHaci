@@ -75,6 +75,16 @@ public class Board {
 
         // Draw strips based on board type
         if (type == BoardType.STRIPBOARD) {
+            // Horizontal strips for stripboard
+            for (int i = 0; i < rows; i++) {
+                double y = marginPx + (i * spacing);
+                Line strip = new Line(marginPx, y, pixelWidth - marginPx, y);
+                strip.setStroke(Color.rgb(184, 115, 51)); // Copper color
+                strip.setStrokeWidth(4 * scaleFactor);
+                boardPane.getChildren().add(strip);
+            }
+        } else if (type == BoardType.MIXED) {
+            // Mixed board: some horizontal strips, some vertical
             for (int i = 0; i < rows; i += 2) {
                 double y = marginPx + (i * spacing);
                 Line strip = new Line(marginPx, y, pixelWidth - marginPx, y);
@@ -82,10 +92,9 @@ public class Board {
                 strip.setStrokeWidth(3 * scaleFactor);
                 boardPane.getChildren().add(strip);
             }
-        } else if (type == BoardType.MIXED) {
             for (int j = 0; j < cols; j += 3) {
                 double x = marginPx + (j * spacing);
-                Line strip = new Line(x, marginPx, x, pixelHeight - marginPx);
+                Line strip = new Line(x, marginPx + (rows/2 * spacing), x, pixelHeight - marginPx);
                 strip.setStroke(Color.rgb(184, 115, 51));
                 strip.setStrokeWidth(3 * scaleFactor);
                 boardPane.getChildren().add(strip);
@@ -156,5 +165,6 @@ public class Board {
         this.scaleFactor = scaleFactor;
         renderBoard();
     }
+    public double getScaleFactor() { return scaleFactor; }
     public List<Line> getJumpers() { return jumpers; }
 }

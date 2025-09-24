@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30" height="25" viewBox="0 0 30 25" xmlns="http://www.w3.org/2000/svg">
+  <!-- LED dome -->
+  <circle cx="15" cy="10" r="7" fill="#ff000040" stroke="#666" stroke-width="0.5"/>
+  
+  <!-- LED core -->
+  <circle cx="15" cy="10" r="2" fill="#ff0000"/>
+  
+  <!-- Flat edge (cathode indicator) -->
+  <line x1="21" y1="6" x2="21" y2="14" stroke="#999" stroke-width="1.5"/>
+  
+  <!-- Anode lead (longer) -->
+  <line x1="12" y1="17" x2="12" y2="25" stroke="#C0C0C0" stroke-width="1"/>
+  
+  <!-- Cathode lead (shorter) -->
+  <line x1="18" y1="17" x2="18" y2="23" stroke="#C0C0C0" stroke-width="1"/>
+  
+  <!-- Pin labels -->
+  <text x="11" y="24" text-anchor="middle" font-family="Arial" font-size="4" fill="#ff0000">+</text>
+  <text x="19" y="22" text-anchor="middle" font-family="Arial" font-size="4" fill="#333">-</text>
+  
+  <!-- Type text -->
+  <text x="15" y="5" text-anchor="middle" font-family="Arial" font-size="4" fill="#333">LED</text>
+</svg>

@@ -6,10 +6,6 @@
 
 LevHacı is a specialized perfboard (protoboard) design application developed for electronic circuit designers. Built with Java and JavaFX, it provides a modern interface for creating professional circuit layouts.
 
-## What is LevHacı?
-
-"LevHacı" is a Turkish word meaning "board maker". This application allows you to design electronic circuits on perfboards using various electronic components with precision and ease.
-
 ## Screenshot
 
 ![LevHacı Application Screenshot 1](LevHaci.jpg)
@@ -19,6 +15,16 @@ LevHacı is a specialized perfboard (protoboard) design application developed fo
 ![LevHacı Application Screenshot 3](LevHaci-2.jpg)
 
 *LevHacı interface showing perfboard design with various electronic components*
+
+## What is LevHacı?
+
+"LevHacı" is a Turkish word meaning "board maker". This application allows you to design electronic circuits on perfboards using various electronic components with precision and ease.
+
+## Motivation
+
+I started this project because working with perforated boards and stripboards without prior planning often leads to messy circuits with unnecessary wires, resulting in a cluttered and unprofessional final layout. To address this, I aimed to create an organized tool that allows visualizing and planning the design effectively. Having used Fritzing previously, I wanted to build something similar but tailored to perfboard-specific needs.
+
+![LevHacı Application Screenshot 4](LevHaci-3.jpg)
 
 ## Features
 

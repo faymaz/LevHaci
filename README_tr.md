@@ -64,7 +64,7 @@ Levhacı, elektronik devre tasarımcıları için geliştirilmiş özel bir perf
 1. Depoyu klonlayın:
    ```bash
    git clone https://github.com/faymaz/Levhaci.git
-   cd Levhaci/PerfBoardDesigner
+   cd Levhaci
    ```
 
 2. Bağımlılıkları yükleyin:

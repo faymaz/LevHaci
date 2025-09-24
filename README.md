@@ -64,7 +64,7 @@ Levhacı is a specialized perfboard (protoboard) design application developed fo
 1. Clone the repository:
    ```bash
    git clone https://github.com/faymaz/Levhaci.git
-   cd Levhaci/PerfBoardDesigner
+   cd Levhaci
    ```
 
 2. Install dependencies:

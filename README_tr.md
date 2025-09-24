@@ -8,6 +8,12 @@ Levhacı, elektronik devre tasarımcıları için geliştirilmiş özel bir perf
 
 "Levhacı" kelimesi "levha yapan kişi" anlamına gelir. Bu uygulama ile çeşitli elektronik bileşenler kullanarak perfboard üzerinde hassas ve kolay şekilde elektronik devreler tasarlayabilirsiniz.
 
+## Ekran Görüntüsü
+
+![Levhacı Uygulama Ekran Görüntüsü](Levhaci.png)
+
+*Çeşitli elektronik bileşenlerle perfboard tasarımı gösteren Levhacı arayüzü*
+
 ## Özellikler
 
 ### Board Türleri

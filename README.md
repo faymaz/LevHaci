@@ -8,6 +8,12 @@ Levhacı is a specialized perfboard (protoboard) design application developed fo
 
 "Levhacı" is a Turkish word meaning "board maker". This application allows you to design electronic circuits on perfboards using various electronic components with precision and ease.
 
+## Screenshot
+
+![Levhacı Application Screenshot](Levhaci.png)
+
+*Levhacı interface showing perfboard design with various electronic components*
+
 ## Features
 
 ### Board Types

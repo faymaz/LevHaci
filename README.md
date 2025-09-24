@@ -1,18 +1,22 @@
-# Levhacı - PerfBoard Design Tool
+# LevHacı - PerfBoard Design Tool
 
 > ⚠️ **Development Status**: This project is currently under active development and is not yet fully ready for production use. Features may be incomplete or subject to change.
 
-Levhacı is a specialized perfboard (protoboard) design application developed for electronic circuit designers. Built with Java and JavaFX, it provides a modern interface for creating professional circuit layouts.
+LevHacı is a specialized perfboard (protoboard) design application developed for electronic circuit designers. Built with Java and JavaFX, it provides a modern interface for creating professional circuit layouts.
 
-## What is Levhacı?
+## What is LevHacı?
 
-"Levhacı" is a Turkish word meaning "board maker". This application allows you to design electronic circuits on perfboards using various electronic components with precision and ease.
+"LevHacı" is a Turkish word meaning "board maker". This application allows you to design electronic circuits on perfboards using various electronic components with precision and ease.
 
 ## Screenshot
 
-![Levhacı Application Screenshot](Levhaci.png)
+![LevHacı Application Screenshot 1](LevHaci.jpg)
 
-*Levhacı interface showing perfboard design with various electronic components*
+![LevHacı Application Screenshot 2](LevHaci-1.jpg)
+
+![LevHacı Application Screenshot 3](LevHaci-2.jpg)
+
+*LevHacı interface showing perfboard design with various electronic components*
 
 ## Features
 
@@ -69,8 +73,8 @@ Levhacı is a specialized perfboard (protoboard) design application developed fo
 ### Setup Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/faymaz/Levhaci.git
-   cd Levhaci
+   git clone https://github.com/faymaz/LevHaci.git
+   cd LevHaci
    ```
 
 2. Install dependencies:
@@ -81,6 +85,10 @@ Levhacı is a specialized perfboard (protoboard) design application developed fo
 3. Run the application:
    ```bash
    mvn javafx:run
+   ```
+4. Remove unnecessary mvn files:
+   ```bash
+   mvn clean
    ```
 
 ## Usage
@@ -115,7 +123,7 @@ This project is released under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-- **GitHub**: [https://github.com/faymaz/Levhaci](https://github.com/faymaz/Levhaci)
+- **GitHub**: [https://github.com/faymaz/LevHaci](https://github.com/faymaz/LevHaci)
 - **Issues**: For bug reports and feature requests
 - **Wiki**: Detailed documentation
 
@@ -125,4 +133,4 @@ This project is released under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-*Design your electronic projects with Levhacı*
+*Design your electronic projects with LevHacı*

@@ -12,7 +12,9 @@ target/
 *.svg
 *.ico
 *.webp
-
+!LevHaci.jpg
+!LevHaci-1.jpg
+!LevHaci-2.jpg
 # Image directories
 img/
 images/

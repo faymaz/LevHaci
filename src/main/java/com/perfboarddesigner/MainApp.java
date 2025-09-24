@@ -21,7 +21,7 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Levhacı (PerfBoard Designer)");
+        primaryStage.setTitle("LevHacı (PerfBoard Designer)");
 
         ComboBox<BoardType> typeCombo = new ComboBox<>(FXCollections.observableArrayList(BoardType.values()));
         typeCombo.setCellFactory(lv -> new ListCell<BoardType>() {
@@ -216,7 +216,7 @@ public class MainApp extends Application {
         MenuItem githubItem = new MenuItem("GitHub Page");
         githubItem.setOnAction(e -> {
             try {
-                getHostServices().showDocument("https://github.com/faymaz/Levhaci");
+                getHostServices().showDocument("https://github.com/faymaz/LevHaci");
             } catch (Exception ex) {
                 showAlert("Error", "Could not open GitHub page: " + ex.getMessage());
             }
@@ -230,13 +230,13 @@ public class MainApp extends Application {
     
     private void showAboutDialog() {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("About Levhacı");
-        alert.setHeaderText("Levhacı - PerfBoard Design Tool");
+        alert.setTitle("About LevHacı");
+        alert.setHeaderText("LevHacı - PerfBoard Design Tool");
         
-        String content = "Levhacı v1.0\n\n" +
-                        "Levhacı is a specialized perfboard (protoboard) design tool\n" +
+        String content = "LevHacı v1.0\n\n" +
+                        "LevHacı is a specialized perfboard (protoboard) design tool\n" +
                         "developed for electronic circuit designers.\n\n" +
-                        "'Levhacı' is a Turkish word meaning 'board maker'.\n" +
+                        "'LevHacı' is a Turkish word meaning 'board maker'.\n" +
                         "With this program you can design circuits on perfboards\n" +
                         "using various electronic components.\n\n" +
                         "Features:\n" +

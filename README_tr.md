@@ -1,18 +1,22 @@
-# Levhacı - Perfboard Tasarım Aracı
+# LevHacı - Perfboard Tasarım Aracı
 
 > ⚠️ **Geliştirme Durumu**: Bu proje şu anda aktif geliştirme aşamasındadır ve henüz tam olarak hazır değildir. Özellikler eksik olabilir veya değişikliğe tabi olabilir.
 
-Levhacı, elektronik devre tasarımcıları için geliştirilmiş özel bir perfboard tasarım uygulamasıdır. Java ve JavaFX kullanılarak modern bir arayüz ile profesyonel devre düzenleri oluşturmanızı sağlar.
+LevHacı, elektronik devre tasarımcıları için geliştirilmiş özel bir perfboard tasarım uygulamasıdır. Java ve JavaFX kullanılarak modern bir arayüz ile profesyonel devre düzenleri oluşturmanızı sağlar.
 
-## Levhacı Nedir?
+## LevHacı Nedir?
 
-"Levhacı" kelimesi "levha yapan kişi" anlamına gelir. Bu uygulama ile çeşitli elektronik bileşenler kullanarak perfboard üzerinde hassas ve kolay şekilde elektronik devreler tasarlayabilirsiniz.
+"LevHacı" kelimesi "levha yapan kişi" anlamına gelir. Bu uygulama ile çeşitli elektronik bileşenler kullanarak perfboard üzerinde hassas ve kolay şekilde elektronik devreler tasarlayabilirsiniz.
 
 ## Ekran Görüntüsü
 
-![Levhacı Uygulama Ekran Görüntüsü](Levhaci.png)
+![LevHacı Application Screenshot 1](.jpg)
 
-*Çeşitli elektronik bileşenlerle perfboard tasarımı gösteren Levhacı arayüzü*
+![LevHacı Application Screenshot 2](-1.jpg)
+
+![LevHacı Application Screenshot 3](-2.jpg)
+
+*Çeşitli elektronik bileşenlerle perfboard tasarımı gösteren LevHacı arayüzü*
 
 ## Özellikler
 
@@ -69,8 +73,8 @@ Levhacı, elektronik devre tasarımcıları için geliştirilmiş özel bir perf
 ### Kurulum Adımları
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/faymaz/Levhaci.git
-   cd Levhaci
+   git clone https://github.com/faymaz/.git
+   cd 
    ```
 
 2. Bağımlılıkları yükleyin:
@@ -115,7 +119,7 @@ Bu proje MIT Lisansı altında yayınlanmıştır. Detaylar için [LICENSE](LICE
 
 ## Bağlantılar
 
-- **GitHub**: [https://github.com/faymaz/Levhaci](https://github.com/faymaz/Levhaci)
+- **GitHub**: [https://github.com/faymaz/](https://github.com/faymaz/)
 - **Issues**: Hata raporları ve özellik istekleri için
 - **Wiki**: Detaylı dokümantasyon
 
@@ -125,4 +129,4 @@ Bu proje MIT Lisansı altında yayınlanmıştır. Detaylar için [LICENSE](LICE
 
 ---
 
-*Elektronik projelerinizi Levhacı ile tasarlayın*
+*Elektronik projelerinizi LevHacı ile tasarlayın*

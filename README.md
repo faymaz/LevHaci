@@ -1,5 +1,7 @@
 # Levhacı - PerfBoard Design Tool
 
+> ⚠️ **Development Status**: This project is currently under active development and is not yet fully ready for production use. Features may be incomplete or subject to change.
+
 Levhacı is a specialized perfboard (protoboard) design application developed for electronic circuit designers. Built with Java and JavaFX, it provides a modern interface for creating professional circuit layouts.
 
 ## What is Levhacı?

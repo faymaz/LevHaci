@@ -1,5 +1,7 @@
 # Levhacı - Perfboard Tasarım Aracı
 
+> ⚠️ **Geliştirme Durumu**: Bu proje şu anda aktif geliştirme aşamasındadır ve henüz tam olarak hazır değildir. Özellikler eksik olabilir veya değişikliğe tabi olabilir.
+
 Levhacı, elektronik devre tasarımcıları için geliştirilmiş özel bir perfboard tasarım uygulamasıdır. Java ve JavaFX kullanılarak modern bir arayüz ile profesyonel devre düzenleri oluşturmanızı sağlar.
 
 ## Levhacı Nedir?
